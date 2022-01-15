@@ -1,0 +1,22 @@
+html{
+   border-style: ridge;
+   margin: 20px;
+   font-size: 16px;
+}
+body{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    font-size: 1.5em;
+}
+em{
+    border:.4em groove royalblue;
+    margin-left: .5em;
+    margin-right: .5em;
+    text-align: center;
+    width: 5em;
+    height: auto;
+    display: inline-block;
+}
+body:hover{
+    background-color: salmon;
+}
