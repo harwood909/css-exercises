@@ -1,25 +1,46 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: .5rem;
 }
-
+.left-links{
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  border: .2rem solid blueviolet;
+}
+.right-links{
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  border: .2rem solid blueviolet;
+}
 .logo {
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: auto;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  margin-left: -3rem;
+  margin-right: -.5rem;
 }
 
 a {
   font-size: 22px;
   background: white;
-  padding: 8px;
+  padding: .5rem;
   /* this removes the line under the links */
-  text-decoration: none;
+  text-decoration: none;  
+  margin: .5rem;
+  justify-content: center;
 }
